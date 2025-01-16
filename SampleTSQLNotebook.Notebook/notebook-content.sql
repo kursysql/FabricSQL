@@ -21,6 +21,20 @@
 
 -- CELL ********************
 
+SELECT *
+FROM sys.dm_database_backups
+WHERE in_retention = 1
+ORDER BY backup_finish_date DESC;
+
+-- METADATA ********************
+
+-- META {
+-- META   "language": "sql",
+-- META   "language_group": "sqldatawarehouse"
+-- META }
+
+-- CELL ********************
+
 SELECT * FROM SalesLT.Product
 
 -- METADATA ********************
