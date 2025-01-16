@@ -13,6 +13,10 @@
 -- META         {
 -- META           "id": "366ec5f0-595c-441d-9b28-fd5f38166ef8",
 -- META           "type": "MountedWarehouse"
+-- META         },
+-- META         {
+-- META           "id": "65e9fc46-2348-4a72-a0ed-dcb54593e29a",
+-- META           "type": "MountedWarehouse"
 -- META         }
 -- META       ]
 -- META     }
@@ -21,41 +25,8 @@
 
 -- CELL ********************
 
-SELECT *
-FROM DrugaBazaSQL.sys.dm_database_backups
-WHERE in_retention = 1
-ORDER BY backup_finish_date DESC;
-
--- METADATA ********************
-
--- META {
--- META   "language": "sql",
--- META   "language_group": "sqldatawarehouse"
--- META }
-
--- CELL ********************
-
-SELECT * FROM DrugaBazaSQL.dbo.InnaTabela
-
--- METADATA ********************
-
--- META {
--- META   "language": "sql",
--- META   "language_group": "sqldatawarehouse"
--- META }
-
--- CELL ********************
-
-SELECT * FROM SalesLT.Product
-
--- METADATA ********************
-
--- META {
--- META   "language": "sql",
--- META   "language_group": "sqldatawarehouse"
--- META }
-
--- CELL ********************
+-- Welcome to your new notebook
+-- Type here in the cell editor to add code!
 
 
 -- METADATA ********************
